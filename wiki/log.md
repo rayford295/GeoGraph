@@ -49,3 +49,8 @@
 - Added `wiki/papers/rapidmap.md` as a node of its own rather than filing the abstract under RAPID. RAPID and RAPIDMap are not a long and a short version of one paper: they share the perception, restoration, and recognition agents but terminate differently — RAPID in a Disaster Reasoning Agent that writes FEMA-aligned explanations, RAPIDMap in a Disaster Mapping Agent that does geo-referencing, cross-view alignment, and GIS-ready output. Filing them as one node would have hidden that split.
 - Recorded the CaGIS backbones (GPT-5.1, GPT-5.1-mini, Gemini-2.5-flash, Gemini-2.5-Pro, Gemini-3-Pro, with GPT-5.2 in the mapping agent) and the abstract's own numbers on the new page, so the two nodes cannot be read as reporting the same experiment. The SIGSPATIAL camera-ready's GPT-5-mini results stay on `wiki/papers/rapid.md`.
 - No DOI: the Student Paper Competition abstract is distributed through the conference rather than a DOI-registering proceedings, so the page links the archived PDF, the RAPID repository (which also carries the abstract in `CaGIS2026/`), and the conference site, and says so explicitly instead of leaving an empty DOI field that reads as an oversight.
+
+## 2026-09-07
+
+- Added St. Louis, Missouri (CaGIS 2026 oral presentation of RAPIDMap) to the travel map: new globe point, Missouri state card, FIPS 29 in the county-lighting set.
+- Fixed the hero counters, which had drifted: Rockville, Maryland was added on 2026-08-14 without bumping them, so the page still said 19 states / 36 cities while the data held 20 + D.C. / 37. Now 21 / 50 states and 38 cities, matching `PLACES`. `map/README.md` coverage table gains the missing Maryland row as well.
